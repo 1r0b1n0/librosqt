@@ -96,3 +96,6 @@ int main(int _argc, char ** _argv)
 
 Using this method the callbacks from Qt (`onTimeoutFromQt()`) and from ROS (`onTimeoutFromROS()`) are called without any latency.
 The ROS callbacks are called from another thread, so we have to take care to protect any shared ressources with locking mechanisms like mutexes or mailboxes.
+
+## License
+[MIT](https://opensource.org/licenses/MIT)
